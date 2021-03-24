@@ -1,0 +1,29 @@
+{
+  "name": "cstech-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 150000ms --recursive --exit",
+    "cover": "nyc --reporter=html --reporter=text mocha ./test/agent.test.js --exit",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaitanya07-Burle/cstech-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaitanya07-Burle/cstech-Backend/issues"
+  },
+  "homepage": "https://github.com/Chaitanya07-Burle/cstech-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7"
+  }
+}
